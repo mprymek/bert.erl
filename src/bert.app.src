@@ -1,0 +1,12 @@
+{application, bert,
+ [
+  {description, "BERT encoder/decoder."},
+  {vsn, "1.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bert, []}},
+  {env, []}
+ ]}.
